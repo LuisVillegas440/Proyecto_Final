@@ -1,0 +1,125 @@
+@import url("normalize.css");
+
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e6e9eb;
+}
+
+.menu {
+  background-color: #6141BB;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.body > h1 {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.body > h2 {
+  font-size: 24px;
+}
+
+.body > h1,
+.body > a,
+.body > h2 {
+  color: #ffffff;
+}
+
+.level-option {
+  display: block;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration-color: transparent;
+}
+
+
+.level-option > svg {
+  margin-right: 5px;
+}
+
+.level-option:hover {
+  background-color: rgba(255,255,255,0.1);
+  text-decoration-color: transparent;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: white solid 1px;
+    padding-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+footer > a {
+    color: white;
+    font-size: 10px;
+}
+
+.answers{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.alternative {
+  --size-box: 55px;
+  height: var(--size-box);
+  width: var(--size-box);
+  text-align: center;
+  font-size:30px;
+  line-height: var(--size-box);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.alternative:nth-child(even) {
+  background-color: #84B6F4;
+}
+.alternative:nth-child(odd) {
+  background-color: #77DD77;
+}
+
+.skip-excercise {
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+
+.skip-excercise:active{
+  background-color: rgba(255,255,255,0.8);
+}
+
+.alert {
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.alert-success{
+  background-color: #77DD77;
+}
+
+.alert-failure{
+  background-color: #C73A3B;
+}
