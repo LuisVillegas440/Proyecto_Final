@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Pares e Impares</title>
+    <link rel="stylesheet" href="../styles/odd_even.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Números Pares e Impares</h1>
+        <input type="number" id="startNumber" placeholder="Número inicial" min="0">
+        <input type="number" id="endNumber" placeholder="Número final" min="0">
+        <a href="secondary.html">Volver al menú</a>
+        <button onclick="showEvenOddNumbers()">Mostrar</button>
+        
+        <div class="result" id="evenResult"></div>
+        <div class="result" id="oddResult"></div>
+        <div class="explication">
+            <h3>Sabemos que un número es par si se divide para 2 y su residuo es 0, si es diferente de 0 entonces es impar</h3>
+        </div>
+    </div>
+    
+
+    <script src="../js/odd_even.js"></script>
+</body>
+</html>

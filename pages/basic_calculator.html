@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="../styles/basic_calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Básica</h1>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <br>
+        <div>
+            <button onclick="calculate('add')">Sumar</button>
+        <button onclick="calculate('subtract')">Restar</button>
+        </div>
+        <div>
+            <button onclick="calculate('multiply')">Multiplicar</button>
+        <button onclick="calculate('divide')"><i class="fa-solid fa-divide"></i>Dividir</button>
+        
+        <div class="result" id="result"></div>
+        <div>
+            <a href="university.html">Volver al menú</a>
+        </div>
+        </div>
+    </div>
+    <script src="../js/basic_calculator.js"></script>
+</body>
+</html>

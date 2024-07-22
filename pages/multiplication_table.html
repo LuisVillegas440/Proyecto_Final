@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tablas</title>
+    <link rel="stylesheet" href="../styles/multiplication_table.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabla de multiplicar y/o sumar</h1>
+        <input type="number" id="numberInput" placeholder="Ingresa un número entero" min="1">
+        <select id="operation">
+            <option value="*">Multiplicar</option>
+            <option value="+">Sumar</option>
+        </select>
+        <a href="secondary.html">Volver al menú</a>
+        <button onclick="generateTable()">Generar</button>
+        <div class="result" id="result"></div>
+        <div class="explication">
+            <h3>Crea una tabla con el numero ingresado hasta el numero 10 usando un for en el que hace la operación seleccionada</h3>
+        </div>
+    </div>
+    <script src="../js/multiplication_table.js"></script>
+</body>
+</html>

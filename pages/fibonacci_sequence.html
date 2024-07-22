@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Secuencia Fibonacci</title>
+    <link rel="stylesheet" href="../styles/fibonacci_sequence.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Secuencia Fibonacci</h1>
+        <input type="number" id="numberInput" placeholder="Ingresa un número entero positivo" min="1">
+        <div>
+            <a href="secondary.html">Volver al menú</a>
+            <button onclick="generateFibonacci()">Generar</button>
+            
+        </div>
+        
+        <div class="result" id="result"></div>
+        <div class="explication">
+            <h3>La sucesión de Fibonacci se trata de una serie infinita de números naturales que empieza con un 0 y un 1 y continúa añadiendo números que son la suma de los dos anteriores</h3>
+        </div>
+    </div>
+    <script src="../js/fibonacci_sequence.js"></script>
+</body>
+</html>

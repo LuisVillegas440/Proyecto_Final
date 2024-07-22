@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binario-Decimal</title>
+    <link rel="stylesheet" href="../styles/binary_number_decimal.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Convertir Binario-Decimal</h1>
+        <input type="text" id="inputValue" placeholder="Ingresa un número">
+        <br>
+        <button onclick="convert('binToDec')">Binario a Decimal</button>
+        <button onclick="convert('decToBin')">Decimal a Binario</button>
+        <div class="result" id="result"></div>
+        <div>
+            <a href="university.html">Volver al menú</a>
+        </div>
+        <div class="explication">
+            <h3>Para convertir un número binario a decimal necesitamos realizar una operación de multiplicación en cada dígito de un número binario de derecha a izquierda con potencias de 2 comenzando desde 0 y sumar cada resultado para obtener el número decimal del mismo.</h3>
+        </div>
+    </div>
+    <script src="../js/binary_number_decimal.js"></script>
+</body>
+</html>

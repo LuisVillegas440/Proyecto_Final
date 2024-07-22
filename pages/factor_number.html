@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de Números Naturales</title>
+    <link rel="stylesheet" href="../styles/natural_numbers.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Suma</h1>
+        <input type="number" id="numberInput" placeholder="Ingresa un número entero positivo" min="1">
+        <a href="secondary.html">Volver al menú</a>
+        <button onclick="calculateSum()">Calcular</button>
+        <div class="result" id="result"></div>
+        <div class="explication">
+            <h3>El resultado se obtiene multiplicando todos los numeros enteros positivos que hay entre el numero ingresado y el 1</h3>
+        </div>
+    </div>
+    <script src="../vendors/fontawesome/js/all.min.js"></script>
+    <script src="../js/factor_number.js"></script>
+
+</body>
+</html>
