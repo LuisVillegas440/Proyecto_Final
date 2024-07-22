@@ -13,7 +13,7 @@ function convert(conversionType) {
             alert("Por favor, ingresa un número decimal válido.");
             return;
         }
-        result = parseInt(inputValue, 16).toString(2).padStart(4, '0');
+        result = parseInt(inputValue, 10).toString(2).padStart(4, '0');
     } else {
         alert("Conversión no válida.");
         return;
